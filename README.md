@@ -159,7 +159,7 @@ This is the simplest way to deploy. All services (PostgreSQL, Redis, Milvus, Bac
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/paper-reader.git
+git clone https://github.com/unknown-kid/paper-reader.git
 cd paper-reader
 ```
 
@@ -214,7 +214,7 @@ Uses **Milvus Lite** (a pure-Python embedded Milvus engine) instead of the full 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/paper-reader.git
+git clone https://github.com/unknown-kid/paper-reader.git
 cd paper-reader
 ```
 
