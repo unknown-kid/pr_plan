@@ -83,6 +83,13 @@ services:
       MINIO_ADDRESS: milvus-minio:9000
     volumes:
       - milvus_data:/var/lib/milvus
+    # Increase Docker Desktop memory to 12GB+ for high-dim embeddings (4096-dim)
+    deploy:
+      resources:
+        limits:
+          memory: 6g
+        reservations:
+          memory: 2g
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
       interval: 30s

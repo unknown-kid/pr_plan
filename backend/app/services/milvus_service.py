@@ -51,6 +51,9 @@ class MilvusVectorStore:
             "text-embedding-v2": 1536,
             "text-embedding-v3": 1024,
             "embedding-001": 768,
+            "qwen3-embedding-8b": 4096,
+            "qwen3-embedding-4b": 2048,
+            "qwen3-embedding-0.6b": 1024,
         }
         for key in dims:
             if key in model_name.lower():
