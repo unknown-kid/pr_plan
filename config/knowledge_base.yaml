@@ -1,0 +1,8 @@
+# Knowledge Base Configuration
+vector_store:
+  type: langchain
+  persist_directory: ./chroma_db
+
+embedding:
+  provider: openai
+  model_name: text-embedding-ada-002
