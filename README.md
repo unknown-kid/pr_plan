@@ -14,7 +14,7 @@ An online academic paper reading and management platform with AI-powered feature
 - **User Personalization** -- Per-user favorites, reading progress tracking, and personal notes. Dark mode and responsive layout for desktop/mobile.
 - **Flexible Model Configuration** -- Users can configure their own AI models (embedding, chat, translation) with custom API keys and endpoints. Administrators can set up a public model pool.
 - **Batch Operations** -- Select multiple papers and batch vectorize, delete, or tag them via async Celery tasks with real-time progress tracking.
-
+bDnz2Npb7qd6K4c3M4v4P4W3zUYSib3CDkk2p5fOa50K0nWF
 ## Architecture
 
 ```
